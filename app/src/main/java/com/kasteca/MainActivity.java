@@ -136,7 +136,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    // questa funzione serve per mostrare un dialog nel caso di LOGIN FALLITO
+    // questa funzione serve per mostrare un dialog nel caso di LOGIN FALLITO!
     public void showAlert(String s){
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
         alertDialog.setTitle(getResources().getString(R.string.Login_Failed));
